@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.scroll-container {
+  display: flex;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-width: 100vw;
+  &:nth-child(1) {
+    background-color: dodgerblue;
+  }
+  &:nth-child(2) {
+    background-color: pink;
+  }
+  &:nth-child(3) {
+    background-color: whitesmoke;
+  }
+  &:nth-child(4) {
+    background-color: violet;
+  }
+  &:nth-child(5) {
+    background-color: burlywood;
+  }
+  &:nth-child(6) {
+    background-color: navajowhite;
+  }
+}
+
+.title {
+  font-size: 6.4rem;
+  font-weight: bold;
+  color: white;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "beauty-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Przemysław Drozniak",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "locomotive-scroll": "^4.1.3"
+  }
+}
